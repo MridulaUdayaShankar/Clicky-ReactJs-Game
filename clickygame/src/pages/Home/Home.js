@@ -1,12 +1,11 @@
 import React from "react";
-import Main from "../components/Main";
-import Row from "../components/Row";
-import Col from "../components/Col";
+import Main from "./components/Main";
+import Row from "./components/Row";
+import Col from "./components/Col";
 
 const Home = () => (
   <div>
   <Main>
-    
       <Row>
         <Col size="md-12">
           <h1>Click on an image to begin!</h1>
