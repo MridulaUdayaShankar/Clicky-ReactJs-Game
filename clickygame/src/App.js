@@ -1,16 +1,22 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import NavTabs from "./components/NavTabs/NavTabs.js";
-import Home from "./components/pages/Home/Home.js";
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
+import Footer from "./components/Footer"
+import Home from "./pages/Home";
 
 const App = () => (
   <Router>
     <div>
-      <NavTabs />
-      <Route exact path="/" component={Home} />
+      <Navbar />
+      <Main>
+        <Route exact path="/" component={Home} />
+      </Main>
+      <Footer />
     </div>
   </Router>
+
 );
 
 export default App;
