@@ -1,6 +1,20 @@
 
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  font-family: sans-serif;
+.navbar {
+    background: #777777;
+    max-height: 70px;
+    /* position: flex; */
+    min-width: 100%;
+    -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    color: #fff;
+    z-index: 99;
+    white-space: nowrap;
+    margin: 0 auto;
+    
+}
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+  display: block;
 }
