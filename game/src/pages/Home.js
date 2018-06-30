@@ -4,10 +4,9 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 import Main from "../components/Main";
 import Card from "../components/Card";
-import "./Home.css";
+// import "./Home.css";
 import images from "../images.json";
-
-export class Home extends Component {
+class Home extends Component {
 
   // Setting this.state.friends to the friends json array
   state = {
@@ -101,3 +100,5 @@ export class Home extends Component {
     );
   }
 }
+
+export default Home;
